@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def binomial_model(N, S0, u, r, K):
+def binomial_model(R,T,S,X,TYPE,SIGMA):
     """
     N = number of binomial iterations
     S0 = initial stock price
